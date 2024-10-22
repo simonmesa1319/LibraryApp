@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    border-radius: 20% solid;
+    height: 30em;
+    margin: 5em;
+    overflow: hidden;
+}
+
+.rightCard-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.leftCard-container {
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+}
